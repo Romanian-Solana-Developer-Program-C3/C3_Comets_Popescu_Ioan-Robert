@@ -8,7 +8,7 @@ const keypair2 = getKeypairFromEnvironment("SECRET_KEY_2");
 const sender = new PublicKey(keypair.publicKey);
 const receiver = new PublicKey(keypair2.publicKey);
 const MINT = new PublicKey("AvhqzwfKKAnw3CCNanQFYT2zzRqM4gSzgyL1iGpVwJZj");
-const amount = 2;
+const amount = 1;
 
 async function sendToken(src: PublicKey, dest: PublicKey, mint:PublicKey, amount:number) {
     console.log(`Started sending ${amount / 10 ** 9} tokens...`);
