@@ -1,0 +1,5 @@
+/home/gadzzaa/C3_Comets_Popescu_Ioan-Robert/C4/rustlings/target/debug/deps/primitive_types4-b011b190a7950aaa: exercises/04_primitive_types/primitive_types4.rs
+
+/home/gadzzaa/C3_Comets_Popescu_Ioan-Robert/C4/rustlings/target/debug/deps/primitive_types4-b011b190a7950aaa.d: exercises/04_primitive_types/primitive_types4.rs
+
+exercises/04_primitive_types/primitive_types4.rs:
