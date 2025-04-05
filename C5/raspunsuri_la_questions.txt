@@ -1,0 +1,30 @@
+Does the anchor project compile without any warnings?
+Just a small experimental warning.
+
+  yarn run v1.22.22
+  $ /home/gadzzaa/C3_Comets_Popescu_Ioan-Robert/C5/favorites/node_modules/.bin/ts-mocha -p ./tsconfig.json -t 1000000 'tests/**/*.ts'
+  (node:70796) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+  (Use `node --trace-warnings ...` to show where the warning was created)
+
+  Error: Cannot find module '/home/gadzzaa/C3_Comets_Popescu_Ioan-Robert'
+      at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+      at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+      at Function._load (node:internal/modules/cjs/loader:1215:37)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+      at node:internal/main/run_main_module:33:47 {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: []
+  }
+
+What is the name of the instruction handler?
+  SetFavourites, i think?
+
+The program has a ID, which is a pubkey.
+Where does the secret key for this pubkey exist? Hint: it's in your
+project.
+  Is it in Anchor.toml at line 8?
+
+  favorites = "31eTrr43nYd8CugaZHpkZJNDCTLc85g3Uc7YLspuXg1h"

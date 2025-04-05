@@ -1,0 +1,24 @@
+Streaming transaction logs mentioning 31eTrr43nYd8CugaZHpkZJNDCTLc85g3Uc7YLspuXg1h. Confirmed commitment
+Transaction executed in slot 2:
+  Signature: 41ySnn8YKLKnyuCoV6dmKWm2rrCQzvUCZxBGmdzXLkAe48vyXZttwbCk3jwTE4Rt8sqiWEGf4CUd3gB5JteGhdeC
+  Status: Ok
+  Log Messages:
+    Program 31eTrr43nYd8CugaZHpkZJNDCTLc85g3Uc7YLspuXg1h invoke [1]
+    Program log: Instruction: Initialize
+    Program log: Greetings from: 31eTrr43nYd8CugaZHpkZJNDCTLc85g3Uc7YLspuXg1h
+    Program 31eTrr43nYd8CugaZHpkZJNDCTLc85g3Uc7YLspuXg1h consumed 11724 of 200000 compute units
+    Program 31eTrr43nYd8CugaZHpkZJNDCTLc85g3Uc7YLspuXg1h success
+Transaction executed in slot 3:
+  Signature: 5aiYxxdTW6SusZ3UB6wRhJpYMLnKwQBp1aGhS3NvnBAZn1zL1N89EMsdwnofHxCGRfxWrfdLnQdtDxrebqM1732U
+  Status: Ok
+  Log Messages:
+    Program 31eTrr43nYd8CugaZHpkZJNDCTLc85g3Uc7YLspuXg1h invoke [1]
+    Program log: Instruction: SetFavourites
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program log: Setting favourites!
+    Program log: Program ID: 31eTrr43nYd8CugaZHpkZJNDCTLc85g3Uc7YLspuXg1h
+    Program log: Setting: AcV5mtmX74h8bHhrDZ9QzBXH59Mb3mxopUDuCp1YCzH4's favourite number to 10 and color to aqua
+    Program log: Hobbies: ["gaming", "lego", "programming"]
+    Program 31eTrr43nYd8CugaZHpkZJNDCTLc85g3Uc7YLspuXg1h consumed 38882 of 200000 compute units
+    Program 31eTrr43nYd8CugaZHpkZJNDCTLc85g3Uc7YLspuXg1h success
