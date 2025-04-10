@@ -16,11 +16,10 @@ pub fn handler(
         offerer: ctx.accounts.payer.key(),
         token_mint_a: ctx.accounts.token_mint_a.key(),
         token_mint_b: ctx.accounts.token_mint_b.key(),
-        amount_a: token_a_amount,
         wanted_amount_b,
+        bump: ctx.bumps.offer,
     });
     send_tokens_to_vault(ctx, token_a_amount)?;
-
     Ok(())
 }
 
